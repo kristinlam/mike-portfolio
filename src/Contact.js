@@ -1,9 +1,9 @@
 import React from "react";
 
-function Paper () {
+function Contact () {
     return (
       <div>
-        <h2>Paper</h2>
+        <h2>Contact</h2>
         <ul>
           <li>Cardboard</li>
           <li>Computer paper</li>
@@ -12,4 +12,4 @@ function Paper () {
     );
   }
 
-export default Paper;
+export default Contact;

@@ -1,13 +1,119 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  font-size: 62.5%; /* 10px = 1rem */
+  font-family: 'Rubik', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+h1.name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1.2px;
+  margin-bottom: 1rem;
+  
+}
+
+.particle-bg {
+position: absolute;
+left:0;
+top:0;
+z-index: -1;
+width: 100vw;
+height: 100vh;
+}
+
+body {
+  font-size: 16px; /* px fallback */
+  font-size: 1.6rem; /* default font-size for document */
+  line-height: 1.5; /* a nice line-height */
+  background-color: #ccc;
+  height: 100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio {
+  max-width: 50rem;
+  border-radius: 2px;
+  box-shadow: 3px 3px 10px rgba(31, 20, 20, 0.15);
+  padding: 2rem 5rem 5rem;
+  background-color: rgba(255,255,255,0.8);
+}
+
+ul.main-nav {
+  font-size: 1.3rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem;
+  padding-bottom: .5rem;
+  border-bottom: 1px #ccc solid;
+}
+
+ul.main-nav li {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+ul.main-nav a:link,
+ul.main-nav a:visited {
+  text-decoration: none;
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  font-family: inherit;
+}
+
+ul.main-nav a:hover {
+  transform: rotate(360deg);
+}
+
+
+/* Effect 1: Brackets */
+.cl-effect-1 a::before,
+.cl-effect-1 a::after {
+	display: inline-block;
+	opacity: 0;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.2s;
+	transition: transform 0.3s, opacity 0.2s;
+}
+
+.cl-effect-1 a::before {
+	margin-right: 10px;
+	content: '[';
+	-webkit-transform: translateX(20px);
+	-moz-transform: translateX(20px);
+	transform: translateX(20px);
+}
+
+.cl-effect-1 a::after {
+	margin-left: 10px;
+	content: ']';
+	-webkit-transform: translateX(-20px);
+	-moz-transform: translateX(-20px);
+	transform: translateX(-20px);
+}
+
+.cl-effect-1 a:hover::before,
+.cl-effect-1 a:hover::after,
+.cl-effect-1 a:focus::before,
+.cl-effect-1 a:focus::after {
+	opacity: 1;
+	-webkit-transform: translateX(0px);
+	-moz-transform: translateX(0px);
+	transform: translateX(0px);
 }
