@@ -1,6 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import Contact from "./Contact";
+import Resume from "./Resume";
 import Particles from 'react-particles-js';
 import {
   BrowserRouter as Router,
@@ -21,25 +22,28 @@ import {
 export default function BasicExample() {
   return (
     <Router>
-    <Particles className="particle-bg"
-    params={{
-	    "particles": {
-	        "number": {
-	            "value": 50
-	        },
-	        "size": {
-	            "value": 3
-	        }
-	    },
-	    "interactivity": {
-	        "events": {
-	            "onhover": {
-	                "enable": true,
-	                "mode": "repulse"
-	            }
-	        }
-	    }
-	}} />
+      <Particles className="particle-bg"
+        params={{
+          "particles": {
+              "number": {
+                  "value": 50
+              },
+              "size": {
+                  "value": 3
+              }
+          },
+          "interactivity": {
+              "events": {
+                  "onhover": {
+                      "enable": true,
+                      "mode": "repulse"
+                  }
+              }
+          }
+      }} />
+
+
+    
       <div className="portfolio">
         <h1 className="name">Michael DuFauchard</h1>
         <ul className="main-nav cl-effect-1">
@@ -74,16 +78,5 @@ export default function BasicExample() {
         </Switch>
       </div>
     </Router>
-  );
-}
-
-// You can think of these components as "pages"
-// in your app.
-
-function Resume() {
-  return (
-    <div>
-      <h2>Plastic</h2>
-    </div>
   );
 }

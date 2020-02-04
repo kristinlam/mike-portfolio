@@ -25,6 +25,32 @@ h1.name {
   
 }
 
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.title-square {
+  font-size: 4rem;
+  background-color: black;
+  width: 40rem;
+  height: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.title-square p {
+  color: #fff;
+  font-weight: 900;
+  z-index: 1;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
 .particle-bg {
 position: absolute;
 left:0;
@@ -39,19 +65,15 @@ body {
   font-size: 1.6rem; /* default font-size for document */
   line-height: 1.5; /* a nice line-height */
   background-color: #ccc;
-  height: 100vh;
-  display:flex;
-  justify-content: center;
-  align-items: center;
 }
 
-.portfolio {
+/* .portfolio {
   max-width: 50rem;
   border-radius: 2px;
   box-shadow: 3px 3px 10px rgba(31, 20, 20, 0.15);
   padding: 2rem 5rem 5rem;
   background-color: rgba(255,255,255,0.8);
-}
+} */
 
 ul.main-nav {
   font-size: 1.3rem;
