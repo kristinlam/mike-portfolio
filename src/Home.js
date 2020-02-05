@@ -7,7 +7,7 @@ function Home () {
       <div className="section">
         <div className="textbox">
           <h2 className="heading">I.</h2>
-          <p>I'm Michael DuFauchard, a VBA Developer based in New York City. Knowledge-hungry and data-focused, I create modern solutions. Currently, I work at Canon USA as the lead developer of our rebate claims database.</p>
+          <p>I'm Michael DuFauchard, a VBA Developer based in New York City. Knowledge-hungry and data-focused, I create modern solutions. Currently, I work at Canon USA as the lead developer of the rebate claims database.</p>
         </div>
 
         <div className="img-container">
