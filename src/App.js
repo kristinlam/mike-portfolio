@@ -30,13 +30,19 @@ export default function BasicExample() {
               },
               "size": {
                   "value": 3
+              },
+              "color": {
+                "value": "#333"
+              },
+              "line_linked": {
+                "color" : "#333"
               }
           },
           "interactivity": {
               "events": {
                   "onhover": {
                       "enable": true,
-                      "mode": "repulse"
+                      "mode": "grab"
                   }
               }
           }
@@ -45,7 +51,6 @@ export default function BasicExample() {
 
     
       <div className="portfolio">
-        <h1 className="name">Michael DuFauchard</h1>
         <ul className="main-nav cl-effect-1">
           <li>
             <Link to="/">Home</Link>

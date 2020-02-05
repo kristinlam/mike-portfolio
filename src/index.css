@@ -1,31 +1,43 @@
-* {
+@font-face {
+  font-family: Bryant Pro;
+  src: url(bryantpro-font-family/BryantPro-Regular.otf);
+}
+
+/*-------------------------------------------
+Global Styling
+-------------------------------------------*/
+
+*,
+*::after,
+*::before {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  font-size: 62.5%; /* 10px = 1rem */
-  font-family: 'Rubik', sans-serif;
+  font-size: 62.5%; /* 1 rem = 10px */
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px; /* px fallback */
+  font-size: 1.6rem; /* default font-size for document */
+  line-height: 1.5;
+  overflow-x: hidden;
+  overflow-y: overlay;
+  box-sizing: border-box;
+  color: #333;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Bryant Pro', 'Source Sans Pro', serif;
 }
 
-h1.name {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.5rem;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1.2px;
-  margin-bottom: 1rem;
-  
-}
-
-.container {
+#container {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -35,54 +47,37 @@ h1.name {
 div.title-square {
   font-size: 4rem;
   background-color: black;
-  width: 40rem;
-  height: 40rem;
+  /* width: 30rem;
+  height: 30rem; */
   display: flex;
   justify-content: center;
   align-items: center;
+  padding: 5rem;
+  z-index: 1;
 }
 
-div.title-square p {
+h1.title-name {
+  font-size: 3rem;
   color: #fff;
-  font-weight: 900;
-  z-index: 1;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 5px;
   text-align: center;
+  z-index: 2;
 }
 
 .particle-bg {
-position: absolute;
-left:0;
-top:0;
-z-index: -1;
-width: 100vw;
-height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
 }
-
-body {
-  font-size: 16px; /* px fallback */
-  font-size: 1.6rem; /* default font-size for document */
-  line-height: 1.5; /* a nice line-height */
-  background-color: #ccc;
-}
-
-/* .portfolio {
-  max-width: 50rem;
-  border-radius: 2px;
-  box-shadow: 3px 3px 10px rgba(31, 20, 20, 0.15);
-  padding: 2rem 5rem 5rem;
-  background-color: rgba(255,255,255,0.8);
-} */
 
 ul.main-nav {
   font-size: 1.3rem;
   list-style-type: none;
-  display: flex;
-  justify-content: center;
-  margin-bottom: 3rem;
-  padding-bottom: .5rem;
-  border-bottom: 1px #ccc solid;
+  text-align: center;
+  margin-top: 7rem;
 }
 
 ul.main-nav li {
@@ -93,16 +88,10 @@ ul.main-nav li {
 ul.main-nav a:link,
 ul.main-nav a:visited {
   text-decoration: none;
-  color: grey;
+  color: inherit;
   text-transform: uppercase;
   letter-spacing: 1.2px;
-  font-family: inherit;
 }
-
-ul.main-nav a:hover {
-  transform: rotate(360deg);
-}
-
 
 /* Effect 1: Brackets */
 .cl-effect-1 a::before,

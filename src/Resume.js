@@ -1,13 +1,13 @@
 import React from "react";
+import './section.css';
 
 function Resume () {
     return (
       <div>
-        <h2>Contact</h2>
-        <ul>
-          <li>Cardboard</li>
-          <li>Computer paper</li>
-        </ul>
+        <div className="textbox">
+          <h2 className="heading">Resume</h2>
+          <p>Information here.</p>
+        </div>
       </div>
     );
   }

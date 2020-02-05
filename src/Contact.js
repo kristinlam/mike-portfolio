@@ -1,13 +1,13 @@
 import React from "react";
+import './section.css';
 
 function Contact () {
     return (
-      <div>
-        <h2>Contact</h2>
-        <ul>
-          <li>Cardboard</li>
-          <li>Computer paper</li>
-        </ul>
+      <div className="section">
+        <div className="textbox">
+          <h2 className="heading">III.</h2>
+          <p>bruuuuuuuuuuuuuuh</p>
+        </div>
       </div>
     );
   }
