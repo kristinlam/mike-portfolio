@@ -1,14 +1,14 @@
 .section {
     margin: 10rem auto;
+    max-width: 60rem;
+    min-height: 60vh;
 }
 
 .textbox {
-    margin: 0 auto;
-    max-width: 60rem;
 }
 
 .textbox p {
-    font-size: 2rem;
+    font-size: 1.8rem;
 }
 
 h2.heading {
@@ -20,6 +20,12 @@ h2.heading {
     margin-bottom: 5rem;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
+}
+
+h3.subheading {
+    font-size: 2.2rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
 }
 
 div.img-container {
