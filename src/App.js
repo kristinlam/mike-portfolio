@@ -3,6 +3,8 @@ import Home from "./Home";
 import Contact from "./Contact";
 import Resume from "./Resume";
 import Particles from 'react-particles-js';
+import { AnimatedSwitch } from 'react-router-transition';
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -22,6 +24,7 @@ import {
 export default function BasicExample() {
   return (
     <Router>
+
       <Particles className="particle-bg"
         params={{
           "particles": {
@@ -70,7 +73,13 @@ export default function BasicExample() {
           you have multiple routes, but you want only one
           of them to render at a time
         */}
-        <Switch>
+
+       <AnimatedSwitch
+            atEnter={{ opacity: 0 }}
+            atLeave={{ opacity: 0 }}
+            atActive={{ opacity: 1 }}
+            className="switch-wrapper"
+          >
           <Route exact path="/">
             <Home />
           </Route>
@@ -80,7 +89,7 @@ export default function BasicExample() {
           <Route path="/contact">
             <Contact />
           </Route>
-        </Switch>
+        </AnimatedSwitch>
       </div>
     </Router>
   );
