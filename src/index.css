@@ -54,6 +54,7 @@ Utility Classes
  
 .switch-wrapper > div {
   position: absolute;
+  width: 100%;
 }
 
 
