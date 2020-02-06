@@ -13,7 +13,8 @@
     "react-router-dom": "^5.1.2",
     "react-router-transition": "^2.0.0",
     "react-scripts": "3.3.0",
-    "react-skills-bars": "^1.0.0-development"
+    "react-skills-bars": "^1.0.0-development",
+    "vertical-timeline-component-react": "^1.2.1"
   },
   "scripts": {
     "start": "react-scripts start",

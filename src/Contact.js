@@ -14,12 +14,12 @@ function Contact () {
           
           <div className="connect">
             <h3 className="subheading">To connect online</h3>
-            <a href="https://www.linkedin.com/in/michael-dufauchard/" target="_blank">linkedin.com/michael-dufauchard</a>
+            <a target="_blank" href="https://www.linkedin.com/in/michael-dufauchard/" rel="noopener noreferrer">linkedin.com/michael-dufauchard</a>
           </div>
 
           <div className="connect">
             <h3 className="subheading">For examples of my code</h3>
-            <a href="https://github.com/michaeldufauchard" target="_blank">github.com/michaeldufauchard</a>
+            <a target="_blank" href="https://github.com/michaeldufauchard" rel="noopener noreferrer">github.com/michaeldufauchard</a>
           </div>
 
         </div>

@@ -7,7 +7,7 @@ import { AnimatedSwitch } from 'react-router-transition';
 
 import {
   BrowserRouter as Router,
-  Switch,
+  // Switch,
   Route,
   Link
 } from "react-router-dom";

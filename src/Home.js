@@ -11,7 +11,7 @@ function Home () {
         </div>
 
         <div className="img-container">
-          <img src={profilepic} className="profilepic"/>
+          <img alt="Mike" src={profilepic} className="profilepic"/>
         </div>
       </div>
     );
