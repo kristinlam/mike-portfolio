@@ -1,7 +1,7 @@
 import React from "react";
 import Home from "./Home";
 import Contact from "./Contact";
-import Resume from "./Resume";
+import Experience from "./Experience";
 import Particles from 'react-particles-js';
 import { AnimatedSwitch } from 'react-router-transition';
 
@@ -59,7 +59,7 @@ export default function BasicExample() {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/resume">Resume</Link>
+            <Link to="/experience">Experience</Link>
           </li>
           <li>
             <Link to="/contact">Contact</Link>
@@ -83,8 +83,8 @@ export default function BasicExample() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route path="/resume">
-            <Resume />
+          <Route path="/experience">
+            <Experience />
           </Route>
           <Route path="/contact">
             <Contact />
