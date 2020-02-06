@@ -33,8 +33,22 @@ body {
   color: #333;
 }
 
+/*-------------------------------------------
+Utility Classes
+-------------------------------------------*/
+.u-mb-xlg { margin-bottom: 8rem !important; }
+.u-mb-lg { margin-bottom: 5rem !important; }
+.u-mb-md { margin-bottom: 3rem !important; }
+.u-mb-sm { margin-bottom: 1rem !important; }
+
+.u-mt-sm { margin-top: 1rem !important; }
+.u-mt-md { margin-top: 3rem !important; }
+.u-mt-lg { margin-top: 5rem !important; }
+
+.text-center { text-align: center !important; }
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Bryant Pro', 'Source Sans Pro', serif;
+  font-family: 'Source Sans Pro', serif;
 }
 
 #container {
@@ -63,6 +77,8 @@ h1.title-name {
   letter-spacing: 5px;
   text-align: center;
   z-index: 2;
+  font-family: 'Bryant Pro', 'Source Sans Pro', serif;
+
 }
 
 .particle-bg {
