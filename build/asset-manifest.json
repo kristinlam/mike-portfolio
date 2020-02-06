@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.0016cd0a.chunk.css",
-    "main.js": "/static/js/main.47acdf7f.chunk.js",
-    "main.js.map": "/static/js/main.47acdf7f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
-    "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
-    "static/js/2.fb2d8353.chunk.js": "/static/js/2.fb2d8353.chunk.js",
-    "static/js/2.fb2d8353.chunk.js.map": "/static/js/2.fb2d8353.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.921081aa979382de8ea9ad582c7fc94c.js": "/precache-manifest.921081aa979382de8ea9ad582c7fc94c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.0016cd0a.chunk.css.map": "/static/css/main.0016cd0a.chunk.css.map",
-    "static/js/2.fb2d8353.chunk.js.LICENSE": "/static/js/2.fb2d8353.chunk.js.LICENSE",
-    "static/media/index.css": "/static/media/BryantPro-Regular.015f9463.otf",
-    "static/media/mike_profile.png": "/static/media/mike_profile.45a72cd3.png",
-    "static/media/resume.pdf": "/static/media/resume.78b1ec1e.pdf"
+    "main.css": "/mike-portfolio/static/css/main.27d6ee59.chunk.css",
+    "main.js": "/mike-portfolio/static/js/main.47acdf7f.chunk.js",
+    "main.js.map": "/mike-portfolio/static/js/main.47acdf7f.chunk.js.map",
+    "runtime-main.js": "/mike-portfolio/static/js/runtime-main.8dc09288.js",
+    "runtime-main.js.map": "/mike-portfolio/static/js/runtime-main.8dc09288.js.map",
+    "static/js/2.fb2d8353.chunk.js": "/mike-portfolio/static/js/2.fb2d8353.chunk.js",
+    "static/js/2.fb2d8353.chunk.js.map": "/mike-portfolio/static/js/2.fb2d8353.chunk.js.map",
+    "index.html": "/mike-portfolio/index.html",
+    "precache-manifest.1305900cb249d40a59909d7a3d019a66.js": "/mike-portfolio/precache-manifest.1305900cb249d40a59909d7a3d019a66.js",
+    "service-worker.js": "/mike-portfolio/service-worker.js",
+    "static/css/main.27d6ee59.chunk.css.map": "/mike-portfolio/static/css/main.27d6ee59.chunk.css.map",
+    "static/js/2.fb2d8353.chunk.js.LICENSE": "/mike-portfolio/static/js/2.fb2d8353.chunk.js.LICENSE",
+    "static/media/index.css": "/mike-portfolio/static/media/BryantPro-Regular.015f9463.otf",
+    "static/media/mike_profile.png": "/mike-portfolio/static/media/mike_profile.45a72cd3.png",
+    "static/media/resume.pdf": "/mike-portfolio/static/media/resume.78b1ec1e.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.107bb8ca.js",
+    "static/js/runtime-main.8dc09288.js",
     "static/js/2.fb2d8353.chunk.js",
-    "static/css/main.0016cd0a.chunk.css",
+    "static/css/main.27d6ee59.chunk.css",
     "static/js/main.47acdf7f.chunk.js"
   ]
 }
