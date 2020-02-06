@@ -23,7 +23,7 @@ import {
 
 export default function BasicExample() {
   return (
-    <Router>
+    <Router basename="mike-portfolio">
 
       <Particles className="particle-bg"
         params={{
